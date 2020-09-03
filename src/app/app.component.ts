@@ -7,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-complete';
-  activeTab = 'Recipe';
-
-  setActiveTab(tab: string): void {
-    this.activeTab = tab;
-  }
-
 }
